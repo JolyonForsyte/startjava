@@ -20,10 +20,10 @@ public class ConditionalStatement {
 			System.out.println("Your are higher than 1.80 m");
 		}
 
-		char yourNameBeginsWithM ='B';
-		if(yourNameBeginsWithM =='M') {
+		char yourNameBeginsWithM = 'B';
+		if(yourNameBeginsWithM == 'M') {
 			System.out.println("Your name begins with M");
-		} else if (yourNameBeginsWithM=='I') {
+		} else if (yourNameBeginsWithM == 'I') {
 			System.out.println("Your name begins with I");
 		} else {
 			System.out.println("Your name begins with some other letter");

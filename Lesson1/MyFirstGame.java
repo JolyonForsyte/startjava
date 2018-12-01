@@ -3,22 +3,22 @@ import java.util.Scanner;
 public class MyFirstGame {
 	public static void main(String[] args) {
 		
-		int number = 56;
-		int input;
+		int computerNumber = 56;
+		int userInput;
 		
-		do {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter number from 0 to 100: ");
-		input = sc.nextInt();
+		do {
 		
-		if(input < number) {
-			System.out.println("Entered number is smaller than target number");
-		} else if (input > number) {
-			System.out.println("Entered number is bigger than target number");
-		} else if (input == number) {
-			System.out.println("You've guessed it!");
-		}
-		} while (input != number);
+			System.out.println("Enter number from 0 to 100: ");
+			userInput = sc.nextInt();
+		
+			if (userInput < computerNumber) {
+				System.out.println("Entered number is smaller than target number");
+			} else if (userInput > computerNumber) {
+				System.out.println("Entered number is bigger than target number");
+			}
+		} while (userInput != computerNumber);
+		System.out.println("You've guessed it!");
 
 	}
 }

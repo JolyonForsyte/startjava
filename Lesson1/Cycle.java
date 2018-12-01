@@ -7,9 +7,9 @@ public class Cycle {
 		System.out.println("  ");
 		
 		int a = 6;
-		while(a>=-6) {
+		while(a >= -6) {
 			System.out.print(a + " ");
-			a-=2;
+			a -= 2;
 		}
 		
 		System.out.println("  ");
@@ -17,7 +17,7 @@ public class Cycle {
 		int b = 10;
 		int result = 0;
 		do {
-			if(b % 2 !=0) {
+			if(b % 2 != 0) {
 				result += b;
 			}
 			b++;

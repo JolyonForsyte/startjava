@@ -2,12 +2,12 @@ public class Calculator {
 	public static void main(String[] args) {
 		int a = 6;
 		int b = 3;
-		System.out.println(calc(a,b,'*'));
-		System.out.println(calc(a,b,'/'));
-		System.out.println(calc(a,b,'+'));
-		System.out.println(calc(a,b,'-'));
-		System.out.println(calc(a,b,'%'));
-		System.out.println(calc(a,b,'^'));
+		System.out.println(calc(a, b, '*'));
+		System.out.println(calc(a, b, '/'));
+		System.out.println(calc(a, b, '+'));
+		System.out.println(calc(a, b, '-'));
+		System.out.println(calc(a, b, '%'));
+		System.out.println(calc(a, b, '^'));
 		
 	}
 	public static double calc (int x, int y, char sign) {
@@ -15,7 +15,7 @@ public class Calculator {
 		if(sign == '+') {
 			result = x + y;
 		} else if (sign == '-') {
-			result = x-y;
+			result = x - y;
 		} else if (sign == '/') {
 			result = x / y;
 		} else if (sign == '*') {

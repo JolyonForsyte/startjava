@@ -5,10 +5,8 @@ public class MyFirstGame {
 		
 		int computerNumber = 56;
 		int userInput;
-		
 		Scanner sc = new Scanner(System.in);
 		do {
-		
 			System.out.println("Enter number from 0 to 100: ");
 			userInput = sc.nextInt();
 		
@@ -19,6 +17,5 @@ public class MyFirstGame {
 			}
 		} while (userInput != computerNumber);
 		System.out.println("You've guessed it!");
-
 	}
 }

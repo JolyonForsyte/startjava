@@ -1,6 +1,6 @@
 public class Calculator {
 
-	public static double calc(int x, int y, char sign) {
+	public static double calculate(int x, int y, char sign) {
 		double result = 0;
 
 		switch (sign) {
@@ -20,20 +20,18 @@ public class Calculator {
 			result = x % y;
 			break;
 		case '^':
-			result = calcPower(x, y);
+			result = calculatePower(x, y);
 			break;
-
 		}
 		return result;
 	}
 
-	public static int calcPower(int base, int power) {
-		int res = 1;
+	public static int calculatePower(int base, int power) {
+		int resultNumber = 1;
 		for (int i = 1; i <= power; i++) {
-			res *= base;
+			resultNumber *= base;
 		}
-		return res;
-
+		return resultNumber;
 	}
 
 }

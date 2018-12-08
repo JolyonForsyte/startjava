@@ -22,7 +22,7 @@ public class GuessNumber {
 			break;
 		}
 		else {
-			System.out.println("Nobody guessed yet :(  Tray again.\n");
+			System.out.println("Nobody guessed yet.Try again.");
             System.out.println("Here is a hint: ");
             if(one.userNumber < computerNumber) {
             	System.out.println("Player 1 number is smaller than target number");
